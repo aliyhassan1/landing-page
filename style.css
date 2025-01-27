@@ -1,0 +1,29 @@
+.body{
+    font-family: "Roboto"
+}
+
+.header-and-hero, footer{
+    background-color: #1f2937;
+
+}
+
+.hero-main{
+    font-size:  48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links, .hero-secondary{
+    color: #e5e7eb;
+
+
+}
