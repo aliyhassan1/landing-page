@@ -1,5 +1,13 @@
+
+* {
+    box-sizing: border-box;
+   
+}
+
+
+
 .body{
-    font-family: "Roboto"
+    font-family: "Roboto", sans-serif;
 }
 
 .header-and-hero, footer{
@@ -54,7 +62,7 @@ button, .register{
 }
 
 .quote-body{
-    font-size: 36px;
+    font-size: 24px;
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
@@ -96,6 +104,7 @@ li{
 .hero{
     display: flex;
     gap: 70px;
+    min-width: 500px
     
 }
 
@@ -111,10 +120,11 @@ img {
 }
 
 .image img{
-    width: 100px;
+    width: 140px;
     height: auto;
     border-radius: 8px;
-    
+    border: 2px;
+    margin-bottom: 10px; 
     
 
 }
@@ -128,13 +138,13 @@ img {
 }
 
 button{
-    padding: 5px 15px;
+    padding: 5px 18px;
     border-radius: 5px;
 
 
 }
 .info{
-    padding: 0px 200px;
+    padding: 0px 140px 80px;
 }
 
 .info-title{
@@ -148,10 +158,86 @@ button{
 .info-list{
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    gap: 90px;
 
 }
 .info-list-ele{
-    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 140px;
     
+}
+.subtext{
+    text-align: center;
+    
+
+}
+
+
+.quote{
+    padding: 100px 200px;
+}
+
+.quote-source{
+    text-align: right;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.register{
+    margin: 80px 100px;
+    border-radius: 6px;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.register button{
+    border-color: white
+}
+
+.register-main{
+    font-weight: 900;
+}
+
+.footer{
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 20px 40px;
+    
+    
+}
+
+/* #chatgpt */
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    max-width: 100%;
+}
+
+.info-list{
+flex-wrap: wrap;}
+
+@media (max-width: 768px) {
+    .hero-main {
+        font-size: 32px;
+    }
+
+    .hero-secondary {
+        font-size: 16px;
+    }
+
+    .register {
+        flex-direction: column;
+        text-align: center;
+    }
 }
