@@ -241,3 +241,14 @@ flex-wrap: wrap;}
         text-align: center;
     }
 }
+
+
+/* making it suitable for mobile phone */
+
+.header-and-hero{
+    min-width: 738px;
+}
+
+.quote{
+    text-wrap: none;
+}
