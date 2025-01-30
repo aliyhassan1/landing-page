@@ -250,5 +250,5 @@ flex-wrap: wrap;}
 }
 
 .quote{
-    text-wrap: none;
+    min-width: 800px
 }
